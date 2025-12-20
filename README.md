@@ -1,100 +1,22 @@
-# Custom Wrap Images for Tesla Vehicles
+# Icelandic Custom Wraps Collection
 
-This repository provides templates and examples for creating custom wrap designs for your Tesla's 3D vehicle visualization. Personalize your car's appearance in the Paint Shop with your own unique designs.
+This directory contains custom wrap designs specifically themed for Iceland.
 
-## How to Use Custom Wraps
+## Folder Structure
 
-1. **Download** the template for your specific vehicle model (see links below)
-2. **Edit** the template with your custom design (fill in the white areas)
-3. **Save** your design as a PNG file (512x512 to 1024x1024 pixels, max 1 MB)
-4. **Load** your wraps onto a USB drive in a folder called `Wraps`
-5. **Apply** in your Tesla: Toybox → Paint Shop → Wraps tab
+Designs are organized first by **Vehicle Model** (matching the root repo names), and then by **Category**.
 
-## Select Your Vehicle
+### Model 3 (2024+) Base
+Location: `./model3-2024-base/`
 
-Choose your vehicle to download the template and view example wraps:
+* **Emergency Services** (`/emergency/`):
+  * Police (Lögreglan)
+  * Fire Fighters (Slökkviliðið)
+  * Ambulance (Sjúkrabíll)
+* **Companies** (`/companies/`):
+  * Dominos, Pósturinn, Krónan, Bónus, Eimskip, etc.
+* **Public Transport** (`/transport/`):
+  * Strætó, Taxi services
 
-<table>
-<tr>
-<td align="center" valign="top">
-<a href="cybertruck/"><img src="cybertruck/vehicle_image.png" width="200"/></a><br/>
-<a href="cybertruck/"><b>Cybertruck</b><br/></a>
-</td>
-<td align="center" valign="top">
-<a href="model3/"><img src="model3/vehicle_image.png" width="200"/></a><br/>
-<a href="model3/"><b>Model 3</b><br/></a>
-</td>
-<td align="center" valign="top">
-<a href="model3-2024-base/"><img src="model3-2024-base/vehicle_image.png" width="200"/></a><br/>
-<a href="model3-2024-base/"><b>Model 3 (2024+)</b><br/>Standard & Premium</a>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-<a href="model3-2024-performance/"><img src="model3-2024-performance/vehicle_image.png" width="200"/></a><br/>
-<a href="model3-2024-performance/"><b>Model 3 (2024+)</b><br/>Performance</a>
-</td>
-<td align="center" valign="top">
-<a href="modely/"><img src="modely/vehicle_image.png" width="200"/></a><br/>
-<a href="modely/"><b>Model Y</b><br/></a>
-</td>
-<td align="center" valign="top">
-<a href="modely-2025-base/"><img src="modely-2025-base/vehicle_image.png" width="200"/></a><br/>
-<a href="modely-2025-base/"><b>Model Y (2025+)</b><br/>Standard</a>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-<a href="modely-2025-premium/"><img src="modely-2025-premium/vehicle_image.png" width="200"/></a><br/>
-<a href="modely-2025-premium/"><b>Model Y (2025+)</b><br/>Premium</a>
-</td>
-<td align="center" valign="top">
-<a href="modely-2025-performance/"><img src="modely-2025-performance/vehicle_image.png" width="200"/></a><br/>
-<a href="modely-2025-performance/"><b>Model Y (2025+)</b><br/>Performance</a>
-</td>
-<td align="center" valign="top">
-<a href="modely-l/"><img src="modely-l/vehicle_image.png" width="200"/></a><br/>
-<a href="modely-l/"><b>Model Y L</b><br/></a>
-</td>
-</tr>
-</table>
-
-## Requirements & Setup
-
-### Image Requirements
-
-* **Resolution**: 512x512 to 1024x1024 pixels (use template size for best results)
-* **File Size**: Images must be no larger than 1 MB.
-* **File Name**: Use alphanumeric characters, underscores, dashes, and spaces only (max 30 characters).
-* **File Format**: Images must be in PNG format.
-* **File Count**: Up to 10 images can be used at a time.
-
-### USB Drive Setup
-
-1. Format the USB drive as one of the following:
-    + exFAT
-    + FAT 32 (for Windows)
-    + MS-DOS FAT (for Mac)
-    + ext3
-    + ext4
-    + Note: NTFS is not currently supported
-2. Create a folder called `Wraps` at the root level of the drive
-3. Place your PNG files inside the `Wraps` folder
-4. Ensure the drive doesn't contain map or firmware updates
-
-### Applying Wraps in Your Vehicle
-Once loaded, wraps will appear in Toybox → Paint Shop → Wraps tab:
-
-<p>
-<img src="images/paint-shop-wraps-ct.png" width="400"/>
-<br/>
-<br/>
-<img src="images/paint-shop-wraps-m3.png" width="400"/>
-</p>
-
-### Troubleshooting
-
-If you encounter any issues with loading or applying wrap images, please check the following:
-
-* Ensure that the USB drive is formatted correctly and does not contain any map update or firmware update files.
-* Verify that the wrap images meet the requirements listed above.
+## Usage
+To use these wraps, copy the PNG files from the subfolders onto your USB drive into a folder named `Wraps`.
