@@ -4,7 +4,7 @@ A comprehensive collection of custom Tesla vehicle wrap designs with Iceland-the
 
 ## Overview
 
-This repository provides ready-to-use wrap designs and design templates for various Tesla models. The collection includes Iceland-specific themed wraps (Iceland flag, Icelandic companies) as well as base templates and examples for creating custom designs.
+This repository provides ready-to-use wrap designs and design templates for various Tesla models. The collection includes Iceland-specific themed wraps (Iceland flag, Icelandic companies), an American flag wrap, as well as base templates and examples for creating custom designs.
 
 ## Supported Tesla Models
 
@@ -38,6 +38,16 @@ Location: `./model3-2024-base/iceland/`
 #### Design Templates
 * **GIMP Templates** (`/gimp template/`) - For GIMP image editing software
 * **Inkscape Templates** (`/inpspace template/`) - For Inkscape vector graphics
+
+## USA-Themed Wraps
+
+### Model 3 (2024+) Base
+Location: `./model3-2024-base/usa/`
+
+#### General Designs
+* **American Flag** (`american_flag.png`)
+  <br>
+  <img src="./model3-2024-base/usa/american_flag.png" width="300" alt="American Flag Preview">
 
 ## How to Use
 
